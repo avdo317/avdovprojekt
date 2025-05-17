@@ -1,0 +1,64 @@
+.sve {
+  height: 70%;
+  width: 20%;
+  background-color: white;
+  border-radius: 1rem;
+
+}
+
+.slidza {
+  height: 40%;
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.slidza img {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.sredina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  text-align: center;
+
+  h4 {
+    text-align: center;
+  }
+
+  h1 {
+
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 1rem;
+  }
+}
+
+.down {
+  color: white;
+  height: 10%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-align: center;
+
+  p {
+    color: #777
+  }
+
+}
