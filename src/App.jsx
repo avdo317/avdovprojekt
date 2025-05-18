@@ -1,11 +1,12 @@
 import './App.css';
 import Counter from './useState/counter';
 import Vidime from './useState/nevid';
+import Todo from './useState/todo';
 import Ime from './useState/ubaci';
 function app() {
   return (
     <>
-      <Ime />
+      <Todo />
       {/*    <div className="bukv"> */}
       {/*     <Kartica bojaText="red" h4="4 Days ago" h1="Post One" */}
       {/*         boja="red" reads='8' views="3222" comments="31"/> */}
